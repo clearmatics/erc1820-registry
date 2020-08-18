@@ -39,6 +39,16 @@ On deployment you will see the contract that it has been deployed to. Use this a
     deploy -- --f 2 --describe-json
     ```
     Any options for [truffle migrate](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#migrate) could be used
+
+    If you use a keystore provider in your truffle config, inject your keystore file into the docker deployment:
+
+    ```
+    docker run -v "$(pwd)"/truffle-config.js:/app/truffle-config.js -v <path_to_keystore_file>:<expected_path> --network="host" -t \
+    clearmatics/erc1820-registry \
+    deploy -- --f 2 --describe-json
+    ```
+
+    Making sure that the destination injection path is the same path used in the truffle config.
   
 
 
