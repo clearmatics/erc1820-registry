@@ -26,7 +26,7 @@ module.exports = {
 
 //    Replace it for Autonity network with keystore provider
 //    development: {
-//      provider: KeystoreProvider(AUTONITY_RPC, PATH_TO_KEYSTORE_FILE, OPTIONAL_PASSWORD),
+//      provider: new KeystoreProvider(AUTONITY_RPC, PATH_TO_KEYSTORE_FILE, OPTIONAL_PASSWORD),
 //      gas: GAS,
 //      gasPrice: GAS_PRICE,
 //      network_id: NETWORK_ID
