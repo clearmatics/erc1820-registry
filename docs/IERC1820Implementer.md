@@ -1,6 +1,6 @@
-# [🔗](/contracts/ERC1820ImplementerInterface.sol#L4) ERC1820ImplementerInterface
+# [🔗](/interfaces/IERC1820Implementer.sol#L8) ERC1820ImplementerInterface
 # Functions
-## [🔗](/contracts/ERC1820ImplementerInterface.sol#L7) `canImplementInterfaceForAddress(bytes32 interfaceHash, address addr)`
+## [🔗](/interfaces/IERC1820Implementer.sol#L11) `canImplementInterfaceForAddress(bytes32 interfaceHash, address addr)`
 
 Indicates whether the contract implements the interface `interfaceHash` for the address `addr`.
 
