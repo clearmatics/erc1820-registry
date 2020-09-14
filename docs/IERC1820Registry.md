@@ -1,4 +1,4 @@
-# [🔗](/interfaces/IERC1820Registry.sol#L3) ERC1820Registry
+# [🔗](/interfaces/IERC1820Registry.sol#L3) IERC1820Registry
 **Author** _Jordi Baylina and Jacques Dafflon_
 
 For more details, see https://eips.ethereum.org/EIPS/eip-1820

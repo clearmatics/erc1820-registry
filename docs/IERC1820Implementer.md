@@ -1,4 +1,4 @@
-# [🔗](/interfaces/IERC1820Implementer.sol#L8) ERC1820ImplementerInterface
+# [🔗](/interfaces/IERC1820Implementer.sol#L8) IERC1820ImplementerInterface
 # Functions
 ## [🔗](/interfaces/IERC1820Implementer.sol#L11) `canImplementInterfaceForAddress(bytes32 interfaceHash, address addr)`
 

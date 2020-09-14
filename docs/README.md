@@ -1,3 +1,3 @@
 - CONTRACTS
-	 - [ERC1820ImplementerInterface](./ERC1820ImplementerInterface.md)
-	 - [ERC1820Registry](./ERC1820Registry.md)
+	 - [IERC1820ImplementerInterface](./IERC1820ImplementerInterface.md)
+	 - [IERC1820Registry](./IERC1820Registry.md)

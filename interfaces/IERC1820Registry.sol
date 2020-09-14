@@ -6,7 +6,7 @@ pragma solidity 0.5.3;
 * @notice For more details, see https://eips.ethereum.org/EIPS/eip-1820
 */
 
-interface ERC1820Registry {
+interface IERC1820Registry {
 
     /**
     * @notice Query if an address implements an interface and through which contract.
