@@ -1,6 +1,9 @@
-# [🔗](/interfaces/IERC1820Implementer.sol#L8) IERC1820Implementer
+# [🔗](/interfaces/IERC1820Implementer.sol#L3) IERC1820Implementer
+**Author** _Jordi Baylina and Jacques Dafflon_
+
+For more details, see https://eips.ethereum.org/EIPS/eip-1820
 # Functions
-## [🔗](/interfaces/IERC1820Implementer.sol#L11) `canImplementInterfaceForAddress(bytes32 interfaceHash, address addr)`
+## [🔗](/interfaces/IERC1820Implementer.sol#L12) `canImplementInterfaceForAddress(bytes32 interfaceHash, address addr)`
 
 Indicates whether the contract implements the interface `interfaceHash` for the address `addr`.
 

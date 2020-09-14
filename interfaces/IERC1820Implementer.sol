@@ -1,8 +1,9 @@
 pragma solidity ^0.5.3;
 
-/** 
+/**
 * @title ERC1820 Implementer Interface
 * @author Jordi Baylina and Jacques Dafflon
+* @notice For more details, see https://eips.ethereum.org/EIPS/eip-1820
 */
 
 interface IERC1820Implementer {
