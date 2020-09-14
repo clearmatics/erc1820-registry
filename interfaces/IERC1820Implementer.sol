@@ -5,7 +5,7 @@ pragma solidity ^0.5.3;
 * @author Jordi Baylina and Jacques Dafflon
 */
 
-interface IERC1820ImplementerInterface {
+interface IERC1820Implementer {
     bytes32 constant ERC1820_ACCEPT_MAGIC = keccak256(abi.encodePacked("ERC1820_ACCEPT_MAGIC"));
 
     /**

@@ -1,3 +1,3 @@
 - CONTRACTS
-	 - [IERC1820ImplementerInterface](./IERC1820ImplementerInterface.md)
+	 - [IERC1820Implementer](./IERC1820Implementer.md)
 	 - [IERC1820Registry](./IERC1820Registry.md)
