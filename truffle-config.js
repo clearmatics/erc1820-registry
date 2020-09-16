@@ -11,7 +11,9 @@ const GAS = 10000000
 module.exports = {
   networks: {
     development: {
-      provider: () =>  new PrivateKeyProvider(PRIVATE_KEY, AUTONITY_RPC),
+      host: "localhost",
+      port: 8454,
+      gas: GAS,
       network_id: "*"
     },
 //    Replace it for Autonity network with private key provider
