@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed 
 
-- Deployment through `KeystoreProvider` 
+- Deployment through `KeystoreProvider` using an encrypted Keystore file, instead of the previous `PrivateKeyProvider`. 
 
 ## [0.0.1] - 2020-07-31
 
