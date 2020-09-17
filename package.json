@@ -1,6 +1,6 @@
 {
   "name": "erc1820-registry",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A truffle project to deploy an ERC1820 Registry for Permissioned Chains.",
   "keywords": [
     "ethereum",
@@ -23,11 +23,16 @@
   "license": "LGPL-3.0",
   "dependencies": {
     "truffle": "^5.1.23",
+    "truffle-keystore-provider": "github:shirikatsu/truffle-keystore-provider",
     "truffle-privatekey-provider": "^1.3.0"
+  },
+  "devDependencies": {
+    "soldocgen": "0.0.3"
   },
   "scripts": {
     "compile": "truffle compile",
-    "deploy": "truffle deploy --network development"
+    "deploy": "truffle deploy --network development",
+    "docs": "rm -rf ./docs && npx soldocgen docs/ interfaces/"
   },
   "engines": {
     "node": "14.5.0"

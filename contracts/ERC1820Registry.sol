@@ -146,9 +146,9 @@ contract ERC1820Registry {
     }
 
     /// @notice Checks whether a contract implements an ERC165 interface or not.
-    //  If the result is not cached a direct lookup on the contract address is performed.
-    //  If the result is not cached or the cached value is out-of-date, the cache MUST be updated manually by calling
-    //  'updateERC165Cache' with the contract address.
+    ///  If the result is not cached a direct lookup on the contract address is performed.
+    ///  If the result is not cached or the cached value is out-of-date, the cache MUST be updated manually by calling
+    /// 'updateERC165Cache' with the contract address.
     /// @param _contract Address of the contract to check.
     /// @param _interfaceId ERC165 interface to check.
     /// @return True if '_contract' implements '_interfaceId', false otherwise.

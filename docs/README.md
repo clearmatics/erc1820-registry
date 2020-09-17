@@ -1,0 +1,3 @@
+- CONTRACTS
+	 - [IERC1820Implementer](./IERC1820Implementer.md)
+	 - [IERC1820Registry](./IERC1820Registry.md)
