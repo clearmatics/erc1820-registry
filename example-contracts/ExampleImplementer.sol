@@ -1,6 +1,6 @@
 pragma solidity ^0.5.3;
 
-import "./ERC1820ImplementerInterface.sol";
+import "contracts/ERC1820ImplementerInterface.sol";
 
 
 contract ExampleImplementer is ERC1820ImplementerInterface {

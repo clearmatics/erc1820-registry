@@ -1,6 +1,6 @@
 pragma solidity ^0.5.3;
 
-import "./ERC1820Client.sol";
+import "contracts/ERC1820Client.sol";
 
 
 contract ExampleClient is ERC1820Client {
