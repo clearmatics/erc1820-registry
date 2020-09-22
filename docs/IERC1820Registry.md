@@ -74,7 +74,7 @@ Compute the keccak256 hash of an interface given its name.
 
 ## [🔗](/interfaces/IERC1820Registry.sol#L59) `updateERC165Cache(address _contract, bytes4 _interfaceId)`
 
-Updates the cache with whether the contract implements an ERC165 interface or not.
+Updates the cache whether the contract implements an ERC165 interface or not.
 
 
 
@@ -87,9 +87,9 @@ Updates the cache with whether the contract implements an ERC165 interface or no
 
 Checks whether a contract implements an ERC165 interface or not.
 
-If the result is not cached a direct lookup on the contract address is performed.
+If the result is not cached, a direct lookup on the contract address is performed.
 
-If the result is not cached or the cached value is out-of-date, the cache MUST be updated manually by calling `updateERC165Cache` with the contract address.
+If the result is not cached, or the cached value is out-of-date, the cache MUST be updated manually by calling `updateERC165Cache` with the contract address.
 
 
 
