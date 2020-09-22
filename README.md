@@ -15,7 +15,7 @@ Edit truffle-config.js and add networks
 
     truffle migrate --network your-network
 
-On deployment you will see the contract that it has been deployed to. Use this address to initialse the [Asset Token][1] contract deployment. 
+On deployment you will see the contract that it has been deployed to. Use this address to initialise the [Asset Token][1] contract deployment. 
 
 ## Deploy using Docker
 
