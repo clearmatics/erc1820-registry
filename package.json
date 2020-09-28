@@ -1,6 +1,6 @@
 {
   "name": "erc1820-registry",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A truffle project to deploy an ERC1820 Registry for Permissioned Chains.",
   "keywords": [
     "ethereum",
